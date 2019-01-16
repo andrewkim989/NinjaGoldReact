@@ -1,0 +1,186 @@
+#wrapper {
+  background-color: lightgrey;
+  padding-top: 15px;
+}
+h1 {
+  text-align: center;
+  padding: 5px;
+}
+h5 {
+  margin: 10px 50px;
+}
+#blueline{
+  background-color: blue;
+  height: 3px;
+}
+#count {
+  text-align: center;
+  margin: 10px;
+}
+#box1 {
+  margin: 20px;
+  margin-left: 30px;
+  padding: 20px;
+  width: 220px;
+  background-color:rgb(59, 161, 127);
+  color: white;
+  display: inline-block;
+  text-align: center;
+  border-radius: 15px;
+}
+#box2 {
+  margin: 20px;
+  padding: 20px;
+  width: 220px;
+  background-color:rgb(25, 34, 31);
+  color: white;
+  display: inline-block;
+  text-align: center;
+  border-radius: 15px;
+}
+#box3 {
+  margin: 20px;
+  padding: 20px;
+  width: 220px;
+  background-color:rgb(67, 78, 131);
+  color: white;
+  display: inline-block;
+  text-align: center;
+  border-radius: 15px;
+} 
+#box4 {
+  margin: 20px;
+  padding: 20px;
+  width: 230px;
+  background-color:rgb(166, 59, 187);
+  color: white;
+  display: inline-block;
+  text-align: center;
+  border-radius: 15px;
+}
+#box5 {
+  margin: 20px;
+  padding: 20px;
+  width: 220px;
+  background-color: rgb(77, 111, 225);
+  color: white;
+  display: inline-block;
+  text-align: center;
+  border-radius: 15px;
+}
+h4 {
+  font-size: 36px;
+}
+p {
+  font-size: 18px;
+}
+button {
+  width: 120px;
+  font-size: 18px;
+  background-color: rgb(144, 153, 62);
+  color: white;
+  padding: 10px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:after {
+  content: "Find Gold!";
+}
+button:disabled {
+  width: 140px;
+  background-color: rgb(223, 106, 106);
+}
+button:disabled:after {
+  content: "Out of order"
+}
+.spabutton {
+  width: 100px;
+  font-size: 18px;
+  background-color: rgb(58, 172, 115);
+  color: white;
+  padding: 10px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.spabutton:after {
+  content: "Relax";
+}
+.spabutton:disabled {
+  background-color: rgb(129, 204, 166);
+}
+.spabutton:disabled:after {
+  content: "Spa closed";
+}
+#activity {
+  margin-left: 50px;
+  height: 250px;
+  overflow: auto;
+}
+#emptyspace {
+  height: 20px;
+}
+#resetbutton {
+  margin: 30px;
+  margin-left: 50px;
+  width: 150px;
+  font-size: 18px;
+  background-color: rgb(62, 83, 153);
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#resetbutton:after {
+  content: "Reset Activity";
+}
+#youlose {
+  text-align: center;
+  padding-bottom: 30px;
+}
+#youlose img {
+  width: 600px;
+}
+.text {
+  color: white;
+}
+.text:hover {
+  color: rgb(0, 255, 255);
+}
+.restart {
+  width: 150px;
+  font-size: 18px;
+  background-color: rgb(153, 62, 153);
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.restart:after {
+  content: "Restart Game";
+}
+#youwin {
+  text-align: center;
+  padding-bottom: 30px;
+}
+#youwin img {
+  height: 390px;
+}
+.newgame {
+  width: 150px;
+  font-size: 22px;
+  background-color: rgb(63, 49, 253);
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.newgame:after {
+  content: "Play Again!"
+}
